@@ -32,6 +32,9 @@ Arv* insere (Arv* a, int v)
   return a;
 }
 
+int vazia(Arv* a) {
+  return 0;
+}
 
 Arv* libera (Arv* a){
   if (!vazia(a)){
@@ -43,14 +46,15 @@ Arv* libera (Arv* a){
 }
 
 
-void imprime-in (Arv* r)
+void imprime (Arv* r)
 {
 
 }
 
 
 
-void main(void)
+int main(void)
 {
-
+  printf("Ola Mundo Arvbinbusca.c\n");
+  return 0;
 }

@@ -1,0 +1,2 @@
+gcc arvbinbusca.c -o arvbinbusca && ./arvbinbusca
+gcc arvbinbusca.c -o arvbinbusca && ./arvbinbusca
