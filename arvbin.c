@@ -62,7 +62,11 @@ int main()
   Arv * node5 = cria(5, node12, node34);
   
   // Right Side Of Tree
-  
+  Arv * node40 = cria(40, NULL, NULL);
+  Arv * node80 = cria(80, NULL, node40);
+
+  // Main Node
+  Arv * node = cria(45, node5, node80);
 
 
   printf("Ola Mundo do ArvBin.c\n");
