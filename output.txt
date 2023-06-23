@@ -1,0 +1,19 @@
+Pré-Fixado: 45 5 12 34 67 80 40 
+In-Fixado: 12 5 34 67 45 80 40 
+Pós-Fixado: 12 67 34 5 40 80 45 
+
+
+Criando a árvore da questão 3...
+Inserindo a árvore da questão 3 na árvore principal...
+
+Pré-Fixado: 45 5 12 34 67 80 3 66 31 40 
+In-Fixado: 12 5 34 67 45 66 3 31 80 40 
+Pós-Fixado: 12 67 34 5 66 31 3 40 80 45 
+
+QUESTÃO 4: Poda a sub-arvore com raiz igual a 34:
+localiza na direita:
+return: 34 == 34
+returning child
+
+Liberando: 
+result:12 5 66 31 3 40 80 45 

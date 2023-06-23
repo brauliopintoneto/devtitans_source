@@ -1,1 +1,2 @@
-gcc arvbinbusca.c -o arvbinbusca && ./arvbinbusca
+gcc arvbin.c -o arvbin && ./arvbin
+# gcc arvbinbusca.c -o arvbinbusca && ./arvbinbusca
