@@ -1,0 +1,1 @@
+gcc arvgen.c -o arvgen && ./arvgen

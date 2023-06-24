@@ -48,13 +48,38 @@ Arv* libera (Arv* a){
 
 void imprime (Arv* r)
 {
+  if (r == NULL) {
+    return;
+  }
 
+  imprime(r->esq);
+  if (r != NULL) {
+    printf("%d ", r->info);
+  }  
+  imprime(r->dir);
 }
 
 
 
 int main(void)
 {
-  printf("Ola Mundo Arvbinbusca.c\n");
+  Arv * root, * item;
+  
+  root = item = insere(NULL, 1);
+  item = insere(item, 2);
+  imprime(root);
+  printf("\n");
+  item = insere(item, 3);
+  imprime(root);
+  printf("\n");
+  item = insere(item, 5);
+  imprime(root);
+  printf("\n");
+  item = insere(item, 15);
+  imprime(root);
+  printf("\n");
+  item = insere(item, 7);
+  imprime(root);
+  printf("\n");
   return 0;
 }
